@@ -59,6 +59,7 @@ a.header-logo {
 
 .odin-logo {
     width: 500px;
+    margin-left: 10px;
 }
 
 .sign-up {
@@ -159,6 +160,7 @@ img {
 .tiny-container {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     margin-top: -30;
 }
 
@@ -175,6 +177,7 @@ img {
 
 .sign-up.white {
     border: 1px solid #f9faf8;
+    
 }
 
 .dark-container.footer {   
@@ -184,4 +187,8 @@ img {
     text-align: center;
     margin: 0;
     padding: 0;
+}
+
+button:hover {
+    opacity: 75%;
 }
