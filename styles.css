@@ -23,6 +23,7 @@ body {
 .left-header {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 .right-header {
@@ -125,6 +126,7 @@ img {
     flex-direction: column;
     text-align: center;
     padding-bottom: 100px;
+    transition: transform 0.25s ease-in-out;
 }
 
 .icon-and-text img {
@@ -189,6 +191,21 @@ img {
     padding: 0;
 }
 
+.right-header a {
+    transition: transform 0.3s ease-in-out;
+    display: inline-block;
+}
+
+.right-header a:hover {
+    transform: translateY(3px);
+}
+
 button:hover {
     opacity: 75%;
+    cursor: pointer;
+}
+
+.icon-and-text:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
 }
